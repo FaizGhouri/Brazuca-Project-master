@@ -1,0 +1,84 @@
+
+.Main-Container{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    width: 100%;
+
+}.SM-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background: #0C1018;
+}
+
+.Middle-content{
+    width: 80%;
+    /* border: 1px solid black; */
+    background: #0C1018;
+}
+
+.Slider-div{
+    width: 80%;
+    /* position: relative;
+    left: 200px; */
+    margin: 30px auto;
+}
+
+.Banner-1 img, .Banner-2 img,.Banner-3 img, .Banner-4 img{
+    width: 320px;
+    height: 190px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.Button-div{
+    width: 79%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 20px; */
+    margin: auto;
+    background-color: #79797925;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.Btn-1{
+    border: none;
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: 600;
+    width: 25%;
+    display: flex;
+    padding: 20px;
+    background: transparent;
+    text-align: center;
+    justify-content: center;
+    transition: .5s;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* .Btn-1:hover{
+    background: #91a5be5d;
+    border-radius: 10px;
+} */
+
+
+.Btn-1:focus{
+    background: #91a5be5d;
+
+}
+
+.fa-7{
+    font-size: 17px;
+}

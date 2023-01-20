@@ -1,0 +1,89 @@
+.Main-Box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.Box-1{
+    width: 50%;
+    background-image: url("../../../Assets/Images/Logo/Logo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px 0p 0px 10px;
+    
+    
+}
+
+
+.Box-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.searchmodalDiv{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 8%;
+
+}
+
+.fa-magnifying-glass{
+    color: #A0AFCF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.searchModal .css-uczwpd {
+    position: absolute !important;
+    top: 10% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -moz-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+    width: 750px !important;
+    padding: 0px !important;
+    background-color: white !important;
+    box-shadow: none !important;
+    font-family: 'Poppins';
+    border-radius: 12px;
+    /* background-color: #fff; */
+    /* box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%); */
+    /* padding-top: 16px; */
+    /* padding-left: 32px; */
+    /* padding-right: 32px; */
+    /* padding-bottom: 24px; */
+}
+
+/* .css-7mt4h1-MuiInputBase-root .MuiInputBase-input{
+
+    background-color: #fff;
+
+} */
+
+@media (min-width: 600px){
+
+    .css-7mt4h1-MuiInputBase-root .MuiInputBase-input {
+        width: 78ch !important;
+        height: 5ch !important;
+        border: 3px !important;
+        box-shadow: 2px 4px 20px -1px black !important;
+        border-radius: 12px;
+    }
+}
+
+@media (min-width: 600px){
+
+    .css-7mt4h1-MuiInputBase-root .MuiInputBase-input:focus {
+        width: 80ch !important;
+    }
+}
