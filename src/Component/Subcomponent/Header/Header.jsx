@@ -5,6 +5,7 @@ import NestedModal from '../Modal/Modal';
 import SearchModal from '../Search Modal/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import PersistentDrawerLeft from '../Sidebar/Drawer/Drawer'
+import NestedModal2 from '../Modal/Modal2';
 
 const Header = () => {
     return (
@@ -25,7 +26,8 @@ const Header = () => {
                     <div className='leftBtnDiv'>
 
                         <NestedModal />
-                        <button className="Sign-btn">Sign Up</button>
+                        <NestedModal2 />
+                        {/* <button className="Sign-btn">Sign Up</button> */}
                         <SearchModal />
                         <i class="fa-solid fa-bars-staggered"></i>
 

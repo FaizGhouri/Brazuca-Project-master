@@ -8,7 +8,7 @@
 
 .Box-1{
     width: 50%;
-    background-image: url("../../../Assets/Images/Logo/Logo2.jpg");
+    /* background-image: url("../../../Assets/Images/Logo/Logo2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     border: 10px 0p 0px 10px;

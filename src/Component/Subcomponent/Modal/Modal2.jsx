@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import '../Modal/Modal.css';
 import Logo2 from '../../../Assets/Images/Logo/Logo2.jpg'
 import Logo from '../../../Assets/Images/Logo/Logo1-removebg-preview.png';
-import BasicTabs1 from '../LoginTab/LoginTab';
+import BasicTabs2 from '../LoginTab/LoginTab2';
 
 const style = {
     position: 'absolute',
@@ -51,7 +51,7 @@ const style = {
 //     );
 // }
 
-export default function NestedModal() {
+export default function NestedModal2() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => {
         setOpen(true);
@@ -63,7 +63,7 @@ export default function NestedModal() {
     return (
         <div className='modalDiv'>
             {/* <Button  className="Login-Btn">Login</Button> */}
-            <button onClick={handleOpen} className='Login-btn'>Log In</button>
+            <button onClick={handleOpen} className='S-btn'>Sign In</button>
 
 
             <Modal
@@ -81,7 +81,7 @@ export default function NestedModal() {
                         </div>
                         <div className="Box-2">
 
-                            <BasicTabs1 />
+                            <BasicTabs2 />
 
                             
 

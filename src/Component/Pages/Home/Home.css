@@ -82,3 +82,371 @@
 .fa-7{
     font-size: 17px;
 }
+
+.Games-div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+
+.House-div{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.house{
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #acb9d2;
+
+}
+
+.gamespad-2{
+    color: #acb9d2 !important;
+    font-size: 25px;
+}
+
+.Game-img-div{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.Carsh{
+    width: 160px;
+    height: 250px;
+    background-image: url('../../../Assets/Images/Games/craps.webp');
+    background-size: cover;
+    border-radius: 10px;
+    transition: .5s;
+}
+.mine{
+    width: 160px;
+    height: 250px;
+    background-image: url('../../../Assets/Images/Games/mines.webp');
+    background-size: cover;
+    border-radius: 10px;
+    transition: .5s;
+}
+.rule{
+    width: 160px;
+    height: 250px;
+    background-image: url('../../../Assets/Images/Games/double-ball-roulette.webp');
+    background-size: cover;
+    border-radius: 10px;
+    transition: .5s;
+}
+.qj{
+    width: 160px;
+    height: 250px;
+    background-image: url('../../../Assets/Images/Games/joker-queen.webp');
+    background-size: cover;
+    border-radius: 10px;
+    transition: .5s;
+}
+.poker{
+    width: 160px;
+    height: 250px;
+    background-image: url('../../../Assets/Images/Games/keno.webp');
+    background-size: cover;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+/* .Carsh:hover {
+    transform: scale(1);
+} */
+.Carsh:hover .crash-overlay{
+    opacity: 1;
+}
+.mine:hover .crash-overlay{
+    opacity: 1;
+}
+.poker:hover .crash-overlay{
+    opacity: 1;
+}
+.qj:hover .crash-overlay{
+    opacity: 1;
+}
+.rule:hover .crash-overlay{
+    opacity: 1;
+}
+
+.crash-overlay:hover .Carsh{
+    transform: scale(5);
+}
+
+.crash-overlay {
+    background: #00000061;
+    height: 250px;
+    width: 160px;
+    position: absolute;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+p.GN-text {
+    font-size: 25px;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+p.Club-Name {
+    color: #fff;
+    margin-top: -24px;
+}
+
+.Play-div {
+    width: 50px;
+    height: 50px;
+    background: #1a53df;
+    border-radius: 60%;
+    text-align: right;
+    margin: auto;
+}
+
+i.fa-solid.fa-play {
+    text-align: center;
+    display: block;
+    padding-top: 15px;
+}
+
+.ab-fiv{
+    margin: 50px auto;
+    width: 100%;
+    border-top: 20px solid #8ccae615;
+    border-bottom: 20px solid #8ccae615;
+    padding: 50px 0px;
+}
+
+.CAHR-div{
+    width: 50%;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* border: 1px solid white; */
+    margin-left: 0;
+}
+
+.con-btn{
+    background: transparent;
+    border: none;
+    color: lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.con-btn:hover{
+    background-color: rgba(211, 211, 211, 0.322);
+    color: #fff;
+}
+.con-btn:focus{
+    background-color: rgb(0, 81, 255);
+    color: #fff;
+}
+
+.WHP-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+.table-list{
+    width: 100%;
+}
+table {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+table thead tr th{
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.list-th{
+    margin-bottom: 10px;
+}
+
+
+table tbody tr td{
+    color: #acb9d2;
+    font-size: 13px;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.home-td{
+    padding-top: 20px;
+    transition: .5s;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.home-td-1{
+    transition: .5s;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.home-td:hover,.home-td-1:hover{
+    color: #fff;
+}
+
+.LC-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.License-div{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: #8ccae60c;
+    padding: 15px 0px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.License-div p{
+    font-size: 16px;
+    color: #acb9d2;
+    font-weight: 600;
+
+}
+
+.License-div img{
+    width: 60px;
+    height: 60px;
+}
+
+.Certificate-div{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: #8ccae60c;
+    padding: 15px 0px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Certificate-div p{
+    font-size: 16px;
+    color: #acb9d2;
+    font-weight: 600;
+
+}
+
+
+.Certificate-div img{
+    width: 50px;
+    height: 50px;
+}
+
+.Icon-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Eigthen-div,.BL-div,.BR-div,.Lite-div,.Doge-Div,.ethrum-div,.ripple-div,.Tron-div,.Tether-div,.binance-div{
+    width: 7.4%;
+    padding: 15px 0px;
+    border-radius: 5px;
+    background-color: #8ccae60c;
+}
+
+.Eigthen-div p{
+    color: #acb9d2;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Tron-div img ,.Tether-div img{
+    width: 25px;
+    height: 25px;
+}
+
+.RC-div{
+    margin-top: 50px;
+    /* width: 50%; */
+    margin-left: 120px;
+}
+
+.reg-text,.copy-text{
+    color: #56698f;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    font-family: inherit;
+}
+.copy-text{
+    color: #56698f;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 3px;
+    font-family: inherit;
+}
+
+.Btc-text{
+    color: #56698f;
+    font-size: 12px;
+}
+
+.dollar-text{
+    color: #acb9d2 !important;
+    font-size: 12px;
+}
+
+.BDT-Div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
